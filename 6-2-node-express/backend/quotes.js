@@ -9,5 +9,5 @@ const quotes = [
 
 export function getRandomQuote() {
     let rndIndex = Math.floor(Math.random() * quotes.length);
- return quotes[rndIndex];
+ return   quotes[rndIndex];
 }
